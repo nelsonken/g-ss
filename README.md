@@ -1,8 +1,7 @@
-# useful string search and replace in directory
+# Useful string search and replace in directory
 ---
 
-## usage
----
+## Usage
 
 ### cmd: g
 ---
@@ -20,5 +19,5 @@
 
 - demo: replace 'abc' to 'cba' in current dir
 
-> ss 'abc' 'bca' ./ 
+> ss 'abc' 'cba' ./ 
 
