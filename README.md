@@ -1,23 +1,23 @@
-# Useful string search and replace in directory
+# 指定目录下所有文件迭代查找和替换
 ---
 
 ## Usage
 
-### cmd: g
+### cmd: g 查找
 ---
 
-- usage: g $searchStr $path
+- usage: g $searchStr $path \[--exclude-dir= --exclude=\]
 
-- demo: search 'abc' in current dir
+- demo: 搜索 'abc' in current dir
 
 > g 'abc' ./ 
 
-### cmd: ss
+### cmd: ss 替换
 ---
 
 - usage: ss $searchStr $replaceStr $path
 
-- demo: replace 'abc' to 'cba' in current dir
+- demo: 替换 'abc' 为 'cba' in current dir
 
 > ss 'abc' 'cba' ./ 
 
