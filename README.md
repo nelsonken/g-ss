@@ -6,7 +6,7 @@
 ### cmd: g 查找
 ---
 
-- usage: g $searchStr $path \[--exclude-dir= --exclude=\]
+- usage: g $search $path \[--exclude-dir= --exclude=\]
 
 - demo: 搜索 'abc' in current dir
 
@@ -15,7 +15,7 @@
 ### cmd: ss 替换
 ---
 
-- usage: ss $searchStr $replaceStr $path
+- usage: ss $search $replacement $path
 
 - demo: 替换 'abc' 为 'cba' in current dir
 
